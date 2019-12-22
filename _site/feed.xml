@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blake Helms</title>
+    <description>The online home of Blake Helms</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 22 Dec 2019 01:01:26 +0000</pubDate>
+    <lastBuildDate>Sun, 22 Dec 2019 01:01:26 +0000</lastBuildDate>
+    <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Meritocratic Ownership of Source Code: A Proposal</title>
+        <description>&lt;p&gt;Recently, a coworker and I were discussing “Inner-sourcing.” Inner-sourcing is when a company utilizes open source principles and practices within the company. One thing we were lamenting was that even as our company works to implement Inner-sourcing, repos are still tied to teams and thus their bandwidth is a limiting factor.&lt;/p&gt;
+
+&lt;p&gt;This got me thinking, how could we setup a git repo which was not owned by any one person or team but still had the appropriate gates to prevent bad code from entering? That’s when I had the idea for a new ownership model, “Meritocratic Ownership.”&lt;/p&gt;
+
+&lt;p&gt;In this model, credit (for a lack of better terms, we’ll call it ‘Karma’) is awarded to individuals as they contribute. Over time, as their “Karma” increases they have more sway over a repo that has been configured with the “Meritocratic Ownership” model. However, the real power, is pooling Karma to create or accept change as a group. In the next section I will outline at a high-level how I envision this working.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-does-a-repo-become-meritocratic&quot;&gt;How does a repo become “meritocratic?”&lt;/h2&gt;
+
+&lt;p&gt;This model does not replace any of the previous ownership models. This would be something that the original repo owner would have to choose to do. However, once it’s been turned on, it could only be turned off by a community vote.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-karma-and-how-do-i-accrue-it&quot;&gt;What is Karma and how do I accrue it?&lt;/h2&gt;
+
+&lt;p&gt;Karma, is a credit that is earned when you perform actions that promote the healthy growth of a repo or the community at large.I see three different types of Karma:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Repo Karma&lt;/strong&gt; – This is the highest form. It is awarded as you submit pull requests that are accepted, write tests, improve documentation or other things necessary for a healthy repo.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Community Karma&lt;/strong&gt; – This is awarded as a percentage of your repo Karma. The more you contribute to open source projects, the more Karma you earn and this can be used to give an individual gravitas with newer repos since they have proven their merit. However, this Karma is not as valuable as repo Karma.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Awarded Karma&lt;/strong&gt; – This is a limited supply that can be distributed from one individual to another as a “thank-you” for work. It essentially acts as an incentive to enlist help.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-is-karma-used&quot;&gt;How is Karma used?&lt;/h2&gt;
+
+&lt;p&gt;When something happens on a repo that needs approval it is presented to the community. Each action requires a certain amount of consensus in order to be acted upon. For example, accepting a pull request may require 200 Karma for a particular repo. If 4 people who each have 50 Karma review and approve it, the pull request is accepted. Alternatively one person who has sufficient Karma can accept it. This can also be challenged by other contributors in order to keep balance.Another important point is the amount of Karma required for a particular action is based on a formula that is designed to ensure the largest amount of community involvement, similar to Bitcoin.&lt;/p&gt;
+
+&lt;h2 id=&quot;other-benefits&quot;&gt;Other benefits&lt;/h2&gt;
+
+&lt;p&gt;While I originally envisioned it for use internally, it would be great for community open source projects as well as reviving once-dead projects. While you can always fork a dead project and revive it that way it is also diluting recognition and raising the barrier to entry.&lt;/p&gt;
+
+&lt;h2 id=&quot;concluding-thoughts&quot;&gt;Concluding thoughts&lt;/h2&gt;
+
+&lt;p&gt;This proposal is by no means perfect and I highly encourage you to leave a comment with suggestions or tweet at me @helmsb.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 20 Nov 2019 12:24:31 +0000</pubDate>
+        <link>/meritocratic-ownership-of-source-code-a-proposal</link>
+        <guid isPermaLink="true">/meritocratic-ownership-of-source-code-a-proposal</guid>
+        
+        
+        <category>software-best-practices</category>
+        
+      </item>
+    
+      <item>
+        <title>Good Will Equity</title>
+        <description>&lt;p&gt;You may be asking yourself right now, “What is Good Will Equity?” The simple definition is that Good Will Equity is an imaginary account that everyone has internally that is either deposited into or withdrawn from when asked to do things by their employer.&lt;/p&gt;
+
+&lt;h2 id=&quot;deposits&quot;&gt;Deposits&lt;/h2&gt;
+
+&lt;p&gt;A deposit is made when the company does something good. For example , giving you a raise, giving you a promotion, having a particularly good year in profit sharing distributions, etc.&lt;/p&gt;
+
+&lt;h2 id=&quot;withdrawals&quot;&gt;Withdrawals&lt;/h2&gt;
+
+&lt;p&gt;A withdrawal is made when you ask an employee to do things that they don’t like. For example, asking them to work late or on the weekends, asking them to travel unexpectedly, etc.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-the-financial-analogy&quot;&gt;Why the financial analogy?&lt;/h2&gt;
+
+&lt;p&gt;I’ve always thought that this concept ties in well with the financial analogy as the parallels are numerous. Just like a bank account you can spend more than you put in. Eventually, you go negative and you have to change your habits like or not, or the bank may decide your not worth it and terminate your account. In a similar fashion a team-member may decide that what your asking is too much and decide to leave and go somewhere else.&lt;/p&gt;
+
+&lt;p&gt;You can also rack up debt on a credit card constantly making withdrawals and giving shallow deposits in the form of meaningless gestures, fluffy messages, etc. It may put off the inevitable for a while but do it long enough and eventually you don’t have the Good Will reserves to do the important things (ie. You can’t pay the mortgage).&lt;/p&gt;
+
+&lt;p&gt;Finally, in keeping with the financial analogy, the way you treat your team-members can have further reaching repercussions. Just like a bad credit score due to missed payments can keep you from being approved for a mortgage, similarly, burning out your team can cause you to not only lose them but to have the well poisoned for future candidates. You may suddenly find yourself in a position where it is difficult to hire because no one trusts you anymore.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-is-this-important-to-me&quot;&gt;Why is this important to me?&lt;/h2&gt;
+
+&lt;p&gt;It is very important at that as leaders we never lose sight of this “Good Will Equity” bucket. It is easily to make decisions purely on the basis of monetary needs or gut-feeling but if we don’t take into account the “Good Will Equity” implications we can quickly lose our most talented individuals over things that honestly just don’t matter.&lt;/p&gt;
+
+&lt;p&gt;How can we know what a particular person’s “Good Will Equity” balance is?
+Unfortunately there isn’t a website we can visit or a phone number to call to check the current balance. You have to build a relationship with your team members and listen to them to find this out. This can be through one-on-ones, causal conversations or open discussing in things like team retros.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-can-i-do-with-this-information&quot;&gt;What Can I do with this information?&lt;/h2&gt;
+
+&lt;p&gt;As you gain an understanding you have to stand up as be an advocate for your team and make sure that the company leadership understands the more intangible costs of a decision. You must ensure that when you ask a team-member to do something that you know costs “Good Will Equity” that you are doing it for the right reasons. You must also offset these withdrawals with deposits and insurer that you are showing your team the appreciation for the value that they provide in meaningful ways.&lt;/p&gt;
+
+&lt;p&gt;In summary, every decision that you make that affects your team doesn’t have only monetary costs but also has more personal intangible costs and as a strong leader you need to be cognizant of these costs and be an advocate for your team to make sure that when we are spending “Good Will Equity” it’s for the right reasons and that we are constantly paying back in.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 20 Nov 2019 12:24:31 +0000</pubDate>
+        <link>/good-will-equity</link>
+        <guid isPermaLink="true">/good-will-equity</guid>
+        
+        
+        <category>leadership</category>
+        
+      </item>
+    
+      <item>
+        <title>Failure IS an Option</title>
+        <description>&lt;p&gt;Gene Kranz was a NASA Flight Director who served from the first days of the Mercury missions all the way into the Space Shuttle era. He was importalized in the cinematic depiction of the real life events of “Apollo 13.” In it, Kranz, played by Ed Harris 1 utters one of the most memorable lines in the movie, “Failure is NOT an option” and when the stakes are the lives of the 3 men in the badly damanged command module I can certainly not disagree. However, for many of us the stakes are much lower. Most of the software we write is not tied to orbiting space craft, nuclear warheads or medical life support hardware 2 and thus failure IS and SHOULD be an option.&lt;/p&gt;
+
+&lt;p&gt;I’ve been in software development professionally for over 15 years. During this time a lot has changed in how we write software. I’m not just talking about the tools and the languages but the methodologies as well. When I began my career we were very much a “Waterfall” based shop. Over time we tweaked that methodology but fundamentally it remained the same. Then, like a great lightning bolt from the sky came “Agile.” It was going to solve all of our problems. Never again would software be late or requirements go unfulfilled. All we had to do works work “Agilely” by doing a very specific set of pre-determined ceremonies and actions and like magic all would be right in the world. Needless to say, that didn’t happen.&lt;/p&gt;
+
+&lt;p&gt;In many cases things were worse. The requirments were less defined so our customers were upset. We planned all the work carefully and then worked feverishly all day, most nights and nearly every weekends in order to fulfill the plan that was unrealistic when we devised it.&lt;/p&gt;
+
+&lt;p&gt;What went wrong? Wasn’t “Agile” supposed to save us from all this?&lt;/p&gt;
+
+&lt;p&gt;In the previous paragraphs, I capitalized “Agile” to differentiate it from true “agile software development.” “Agile” has gone from an idea, to a buzz word, to a brand. All along the way it has picked up new cruft, like a snowball rolling down a hill. Consultants have come and gone, companies have risen and fallen in the search to package, promote and sell “Agile” to a waiting public. The problem began almost imeadiatly with a misconception and a mangling of the concept. The word “agile” as layed out in the “Agile Manifesto” is an adjective not a noun. This might seem like an unimportant distinction but it’s the cause of decades of strife.&lt;/p&gt;
+
+&lt;p&gt;Agile software development doesn’t dictate whether you use Kanban or Scrum or what time you need to have a “Daily Stand-up” or if you should have one at all! Instead it gives you the permission to measure things and determine if it’s effective for you and your team. This is the key point I hope to make in this post.&lt;/p&gt;
+
+&lt;p&gt;There is no one size fits all solution. To truly work agilely, you need to develop your practices by measuring them against the principals you want to live by and have an open and honest discussion within your team about whether or not what you’re doing is effective based on the success criteria you’ve decided upon.&lt;/p&gt;
+
+&lt;p&gt;Crucially, however, you MUST be willing to admit when an experiment was a failure, learn from it and develop a new experiment based on those findings.&lt;/p&gt;
+
+&lt;p&gt;There can be a number of challenges that can hinder this mindset. Let’s discuss a few:&lt;/p&gt;
+
+&lt;p&gt;The Sunk Cost Fallacy
+This concept is basically that when evaluating whether or not we should continue a practice we are often biased toward continuing due to the high costs that have already been incurred. It can also serve as a way to “defer” admitting failure by assuming that since the full cost hasn’t yet been realized failure has not yet occurred. Instead you should always base your decisions on the actual data and be willing to accept your loss and work toward a better solution&lt;/p&gt;
+
+&lt;p&gt;Top Down Management
+In many cases the culture of the company can create a situation where individual teams don’t have the necessary autonomy to make the decisions on their own and instead are forced to stay within in a strict framework of operation 3.&lt;/p&gt;
+
+&lt;p&gt;Complacency
+In some cases you may be succeeding in spite of bad practices. Former President of Pixar, Ed Catmul once said “Success hides problems.” This may be the case in your organization. When things are going well it’s difficult to look introspectively and create expirements. No one wants to rock the boat. You must fight this instinct and always be willing to admit that there are ways that you can improve.&lt;/p&gt;
+
+&lt;p&gt;Apathy
+You can only have real change in an organization of the members of that organization care about what they are doing and are looking for ways to improve and grow. This is not only those at the top but also your fellow team-mates. Everyone has to be onboard with improving which means they also have to be onboard with admitting failure.&lt;/p&gt;
+
+&lt;p&gt;Pride
+Which brings us to probably the hardest one of all. Sometimes the one person that it is most difficult to admit failure to is yourself. The very though of failing at something makes you sick but failure is how we learn and grow and admitting to that failure is the first step in unleashing that power. You have to stop tying your self worth to the actions you perform. A failure of an experiment doesn’t define you instead it is the first step in helping you improve.&lt;/p&gt;
+
+&lt;p&gt;How do we begin?
+First, determine an area that you are looking to measure and improve. Don’t try and solve every problem all at once. Pick something isolated and small. Begin by breaking down the problem using techniques like:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The Five Why’s&lt;/li&gt;
+  &lt;li&gt;Mind Maps&lt;/li&gt;
+  &lt;li&gt;A3 Analysis&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Note: I’ll be going more in-depth into these techniques in future posts.&lt;/p&gt;
+
+&lt;p&gt;Next, determine which metrics you are going to use to measure success or failure. Be realistic. Don’t set unattainable goals but don’t sand bag and set goals that are too easy either. These metrics should also correspond to real indicators that give a sense of whether or not you’ve improved the situation and not simply an easy way to “game the system” (ie. “Don’t juke the stats”). An example of this might be meeting the criteria of “reduce errors by 10%” by simply removing the error logging code.&lt;/p&gt;
+
+&lt;p&gt;Once you’ve determined what you want to improve, what metrics are important and how you will measure success or failure you need to determine a time-box to run your experiment then put it into practice.&lt;/p&gt;
+
+&lt;p&gt;The final step which the purpose of this post is to review your metrics and determine whether or not you have been successful. If you were, then great, on to the next issue. If not, then you need to have an open and honest dicussion with your team and the stakeholders and review what you’ve learned and use these findings to drive the next experiment.&lt;/p&gt;
+
+&lt;p&gt;This cycle is sometimes called PDSA (Plan, Do, Study, Act) and it’s probably the most important practice you can add to your organization to drive a culture of agile development. Basically you should never rest on your laurels but instead constantly be experimenting and looking for ways to improve.&lt;/p&gt;
+
+&lt;p&gt;Positive change can only happen when you decide to take a hard look at what you’re doing and having the courage to admit failure.&lt;/p&gt;
+
+&lt;p&gt;Failure IS an option!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 20 Nov 2019 12:24:31 +0000</pubDate>
+        <link>/failure-is-an-option</link>
+        <guid isPermaLink="true">/failure-is-an-option</guid>
+        
+        
+        <category>software-best-practices</category>
+        
+      </item>
+    
+      <item>
+        <title>What Can Wilt Chamberlain’s Free Throws Teach Us About Software Development?</title>
+        <description>&lt;p&gt;Wilt Chamberlain was the greatest basketball player who ever lived. His most notable achievement (in basketball at least) was in 1962, while playing for the Philadelphia Warriors he scored 100 points against the New York Knicks, a record that still stands today. Even more impressive that night was that Chamberlain, a player known for being a terrible free throw shooter, made 28 out of 32 free throws. The story of this game was recently discussed on the excellent “Revisionist History” podcast. In the episode, Malcolm Gladwell recounts how Chamberlain had switched free throw techniques and began shooting his free throws underhanded (sometimes known as a “Granny Shot“). Suddenly, Chamberlain went from a terrible free throw shooter to one of the best. He was now UNSTOPPABLE!&lt;/p&gt;
+
+&lt;p&gt;Wilt Chamberlin shooting a free throw underhanded. AKA The “Granny Shot” with one team mate and one defender.
+Wilt Chamberlain shooting a free throw underhanded. AKA The “Granny Shot”.
+Rick Barry in “The City” number 24 jersey.
+Rick Barry
+Except…not long after, he switched back to his old style of free throw shooting and his completion ratio tanked. He went from shooting 87.5% shooting underhanded back to shooting 40% overhanded. His only achilles heel had been his inability to shoot free throws and as soon as he’d mastered them he went back to the old way. Why would he do that? Well, Chamberlain put it this way in his biography, “I felt silly, like a sissy, shooting underhanded. I know I was wrong. I know some of the best foul shooters in history shot that way. Even now, the best one in the NBA, Rick Barry, shoots underhanded. I just couldn’t do it.” Even though all the statistics proved that shooting underhanded was the best way to go and even after he had seen the success first hand in his record breaking game he still chose to ignore it. On the other hand Rick Barry, the greatest free thrower of all time understood the advantage of underhanded free throws and embraced it to great success.&lt;/p&gt;
+
+&lt;p&gt;I felt silly, like a sissy, shooting underhanded. I know I was wrong. I know some of the best foul shooters in history shot that way. Even now, the best one in the NBA, Rick Barry, shoots underhanded. I just couldn’t do it.&lt;/p&gt;
+
+&lt;p&gt;This may seem unthinkable to many people but as software developers many of us do the exact same thing. I’m talking about creating and maintaining a culture of “Sustainable Code.”&lt;/p&gt;
+
+&lt;p&gt;What do I mean by “Sustainable Code?” Sustainable Code is a methodology that intends to build software using proven techniques to ensure a lower defect rate, faster turn around time on features, shorter regression test period and better work life balance for the team.&lt;/p&gt;
+
+&lt;p&gt;How is this achieved? There are a couple of core disciplines that over the years I’ve learned can make a huge difference when it comes to building a culture that writes sustainable code, I will be going into these in more detail in future posts.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Test Automation&lt;/strong&gt;
+These include unit testing, integration testing, automated feature testing.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pair and Squad Programming&lt;/strong&gt;
+Working with another developer on a single development task or even having the entire team in a room working on a single ticket.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Code Reviews&lt;/strong&gt;
+Sharing your work with the team and getting feedback.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Quick Iterations&lt;/strong&gt;
+Don’t get bogged down for weeks at a time working on a single feature. Write code, check-in and deploy often.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Close collaboration between devs, QA and business analysts.&lt;/strong&gt;
+We’re all one team, don’t just throw things over the wall.&lt;/p&gt;
+
+&lt;p&gt;Now, if you’ve been a developer any length of time you’ve probably run into every item in the list but based on statistics you most likely practice few if any of them. One study showed that TDD lowered defect rates between 40% and 90% when compared to non-TDD projects while only increasing development time 15%-35%. Even in the worst case scenario this is a net-gain! However, just like in the case of Wilt Chamberlain, most developers chose to ignore the stats and keep doing what they’re doing. Most developers balk at having someone review their code or think unit testing is a waste of time and don’t think they need it.&lt;/p&gt;
+
+&lt;p&gt;I’ll be the first to say that early on I HATED writing unit tests. I thought they were so pointless and just took time a way from “real development.” I didn’t want to do code reviews because in my mind I was a good programmer and I didn’t want someone else telling me how to do my job. But as I matured as a developer I came to embrace testing. It lowered my stress level when doing a refactor because I always knew I had the tests to rely on to tell me if I’d done something wrong. The same goes for code reviews. I now look forward to them because its a way to learn new ideas and gain new perspective. I get great feedback and the entire team has a better understanding of what each person is working on.&lt;/p&gt;
+
+&lt;p&gt;Most importantly though as our organization has adopted agile practices, I’ve realized that without these things we could not really say that we’re practicing lean. Gone are the days of multi-week regression cycles, hours long deployments, huge backlogs of defects.&lt;/p&gt;
+
+&lt;p&gt;As a developer. don’t be like Wilt Chamberlain and ignore proven practices because of pride or other reasons. Be like Rick Barry and use these practices to your advantage.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 20 Nov 2019 12:24:31 +0000</pubDate>
+        <link>/what-can-wilt-chamberlains-free-throws-teach-us-about-software-development</link>
+        <guid isPermaLink="true">/what-can-wilt-chamberlains-free-throws-teach-us-about-software-development</guid>
+        
+        
+        <category>software-best-practices</category>
+        
+      </item>
+    
+  </channel>
+</rss>

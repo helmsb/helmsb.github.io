@@ -1,0 +1,24 @@
+title: Blake Helms
+email: blake@blakehelms.net
+description: The online home of Blake Helms
+baseurl: ""
+url: ""
+twitter_username: helmsb
+github_username: helmsb
+permalink: ":title"
+nav_list:
+  Home:
+    - Home
+    - /
+    - fa-home
+  # Contact:
+  #   - Contact
+  #   - /contact
+  #   - fa-plane
+  Author:
+    - About Me
+    - /author/blake
+    - fa-user
+markdown: kramdown
+plugins:
+  - jekyll-feed
