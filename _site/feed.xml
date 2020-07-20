@@ -3,11 +3,24 @@
   <channel>
     <title>Blake Helms</title>
     <description>The online home of Blake Helms</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 22 Dec 2019 01:01:26 +0000</pubDate>
-    <lastBuildDate>Sun, 22 Dec 2019 01:01:26 +0000</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 19 Jul 2020 21:34:30 -0500</pubDate>
+    <lastBuildDate>Sun, 19 Jul 2020 21:34:30 -0500</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Remote Work IS Here to Stay</title>
+        <description>&lt;p&gt;I recently read and article entitled “&lt;a href=&quot;https://medium.com/swlh/remote-work-is-not-here-to-stay-9ef4f0f8f169&quot;&gt;Remote Work Is Not Here to Stay&lt;/a&gt;”&lt;/p&gt;
+</description>
+        <pubDate>Sun, 19 Jul 2020 21:34:30 -0500</pubDate>
+        <link>http://localhost:4000/remote-work-is-here-to-stay</link>
+        <guid isPermaLink="true">http://localhost:4000/remote-work-is-here-to-stay</guid>
+        
+        
+        <category>management</category>
+        
+      </item>
     
       <item>
         <title>Meritocratic Ownership of Source Code: A Proposal</title>
@@ -43,9 +56,9 @@
 
 &lt;p&gt;This proposal is by no means perfect and I highly encourage you to leave a comment with suggestions or tweet at me @helmsb.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 20 Nov 2019 12:24:31 +0000</pubDate>
-        <link>/meritocratic-ownership-of-source-code-a-proposal</link>
-        <guid isPermaLink="true">/meritocratic-ownership-of-source-code-a-proposal</guid>
+        <pubDate>Wed, 20 Nov 2019 12:24:31 -0600</pubDate>
+        <link>http://localhost:4000/meritocratic-ownership-of-source-code-a-proposal</link>
+        <guid isPermaLink="true">http://localhost:4000/meritocratic-ownership-of-source-code-a-proposal</guid>
         
         
         <category>software-best-practices</category>
@@ -85,9 +98,9 @@ Unfortunately there isn’t a website we can visit or a phone number to call to 
 
 &lt;p&gt;In summary, every decision that you make that affects your team doesn’t have only monetary costs but also has more personal intangible costs and as a strong leader you need to be cognizant of these costs and be an advocate for your team to make sure that when we are spending “Good Will Equity” it’s for the right reasons and that we are constantly paying back in.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 20 Nov 2019 12:24:31 +0000</pubDate>
-        <link>/good-will-equity</link>
-        <guid isPermaLink="true">/good-will-equity</guid>
+        <pubDate>Wed, 20 Nov 2019 12:24:31 -0600</pubDate>
+        <link>http://localhost:4000/good-will-equity</link>
+        <guid isPermaLink="true">http://localhost:4000/good-will-equity</guid>
         
         
         <category>leadership</category>
@@ -152,9 +165,9 @@ First, determine an area that you are looking to measure and improve. Don’t tr
 
 &lt;p&gt;Failure IS an option!&lt;/p&gt;
 </description>
-        <pubDate>Wed, 20 Nov 2019 12:24:31 +0000</pubDate>
-        <link>/failure-is-an-option</link>
-        <guid isPermaLink="true">/failure-is-an-option</guid>
+        <pubDate>Wed, 20 Nov 2019 12:24:31 -0600</pubDate>
+        <link>http://localhost:4000/failure-is-an-option</link>
+        <guid isPermaLink="true">http://localhost:4000/failure-is-an-option</guid>
         
         
         <category>software-best-practices</category>
@@ -202,9 +215,9 @@ We’re all one team, don’t just throw things over the wall.&lt;/p&gt;
 
 &lt;p&gt;As a developer. don’t be like Wilt Chamberlain and ignore proven practices because of pride or other reasons. Be like Rick Barry and use these practices to your advantage.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 20 Nov 2019 12:24:31 +0000</pubDate>
-        <link>/what-can-wilt-chamberlains-free-throws-teach-us-about-software-development</link>
-        <guid isPermaLink="true">/what-can-wilt-chamberlains-free-throws-teach-us-about-software-development</guid>
+        <pubDate>Wed, 20 Nov 2019 12:24:31 -0600</pubDate>
+        <link>http://localhost:4000/what-can-wilt-chamberlains-free-throws-teach-us-about-software-development</link>
+        <guid isPermaLink="true">http://localhost:4000/what-can-wilt-chamberlains-free-throws-teach-us-about-software-development</guid>
         
         
         <category>software-best-practices</category>
