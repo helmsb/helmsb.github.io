@@ -8209,6 +8209,9 @@ form {
   float: right;
   margin: 15px; }
 
+.footnotes {
+  font-size: 10px !important }
+
 .no-js-menu {
   background-color: #333337;
   position: fixed;
