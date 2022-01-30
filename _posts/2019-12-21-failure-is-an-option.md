@@ -4,11 +4,7 @@ layout: post
 date: "2019-11-20 12:24:31"
 categories: software-best-practices
 author_name: Blake Helms
-author_avatar: blake-avatar
-author_url: "/author/blake"
-show_avatar: false
 read_time: 7
-feature_image: post-assets/apollo-13-service-module
 ---
 
 Gene Kranz was a NASA Flight Director who served from the first days of the Mercury missions all the way into the Space Shuttle era. He was immortalized in the cinematic depiction of the real life events of “Apollo 13.” In it, Kranz, played by Ed Harris [^1] utters one of the most memorable lines in the movie, “Failure is NOT an option” and when the stakes are the lives of the 3 men in the badly damaged command module I can certainly not disagree. However, for many of us the stakes are much lower. Most of the software we write is not tied to orbiting space craft, nuclear warheads or medical life support hardware 2 and thus failure IS and SHOULD be an option.

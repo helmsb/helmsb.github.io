@@ -4,12 +4,7 @@ layout: post
 date: "2019-11-20 12:24:31"
 categories: software-best-practices
 author_name: Blake Helms
-author_avatar: blake-avatar
-author_url: "/author/blake"
-show_avatar: false
 read_time: 3
-feature_image: post-assets/feature-wilt-chamberlin-granny-shot
-square_related: recommend-laptop
 ---
 
 Recently, a coworker and I were discussing “Inner-sourcing.” Inner-sourcing is when a company utilizes open source principles and practices within the company. One thing we were lamenting was that even as our company works to implement Inner-sourcing, repos are still tied to teams and thus their bandwidth is a limiting factor.

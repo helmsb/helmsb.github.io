@@ -4,11 +4,7 @@ layout: post
 date: "2019-11-20 12:24:31"
 categories: leadership
 author_name: Blake Helms
-author_avatar: blake-avatar
-author_url: "/author/blake"
-show_avatar: false
 read_time: 4
-feature_image: post-assets/cash
 ---
 
 You may be asking yourself right now, “What is Good Will Equity?” The simple definition is that Good Will Equity is an imaginary account that everyone has internally that is either deposited into or withdrawn from when asked to do things by their employer.

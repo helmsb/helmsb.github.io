@@ -1,24 +1,20 @@
-title: Blake Helms
-email: blake@blakehelms.net
-description: The online home of Blake Helms
-baseurl: ""
-url: ""
-twitter_username: helmsb
-github_username: helmsb
-permalink: ":title"
-nav_list:
-  Home:
-    - Home
-    - /
-    - fa-home
-  # Contact:
-  #   - Contact
-  #   - /contact
-  #   - fa-plane
-  Author:
-    - About Me
-    - /author/blake
-    - fa-user
-markdown: kramdown
+# Setup
+title:            Blake Helms
+tagline:          'The digital home of Blake Helms'
+description:      'The digital home of Blake Helms'
+url:              https://blakehelms.net
+baseurl:          ''
+paginate:         5
+
+# About and contact
+author:
+  name:           'Blake Helms'
+  url:            https://twitter.com/helmsb
+
+# Gems
 plugins:
-  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-gist
+
+# Custom vars
+version:          3.0.0
