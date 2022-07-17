@@ -2,28 +2,8 @@
 layout: page
 title: About
 ---
+Blake Helms is a Software Development Director for [EBSCO Industries](https://www.ebscoind.com/), a global company with businesses in a range of industries including Information Services, Publishing and Digital Media, Outdoor Products, Real Estate, Manufacturing and Distribution, and Business Services, headquartered in Birmingham, Alabama.
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+There he is responsible for several core business applications and has been a driver for software craftsmanship and creating a culture that promotes mentorship and continuous improvement.
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
-
-There are currently two themes built on Poole:
-
-* [Hyde](https://hyde.getpoole.com)
-* [Lanyon](https://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](https://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Atom](https://atom.io)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+Blake is incredibly passionate about technology in all areas from writing code for work, to audio/video production for his [church](https://yourgracelife.com/) to automating his home.
