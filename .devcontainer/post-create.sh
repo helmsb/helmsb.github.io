@@ -9,4 +9,5 @@ fi
 # It's assumed that the Gemfile will install Jekyll too
 if [ -f Gemfile ]; then
     bundle install
+    #sudo gem install jekyll bundler
 fi
