@@ -1,16 +1,14 @@
 ---
-title: What Can Wilt Chamberlain’s Free Throws Teach Us About Software Development?
 layout: post
 date: "2019-11-20 12:24:31"
-categories: software-best-practices
-author_name: Blake Helms
-read_time: 5
+title: What Can Wilt Chamberlain’s Free Throws Teach Us About Software Development?
+description: This is a collection of short CSS snippets I thought might be useful for beginners
+summary: This is a collection of short CSS snippets I thought might be useful for beginners.
+tags: coding leadership
 ---
 
 Wilt Chamberlain was the greatest basketball player who ever lived. His most notable achievement (in basketball at least) was in 1962, while playing for the Philadelphia Warriors he scored 100 points against the New York Knicks, a record that still stands today. Even more impressive that night was that Chamberlain, a player known for being a terrible free throw shooter, made 28 out of 32 free throws. The story of this game was recently discussed on the excellent “Revisionist History” podcast. In the episode, Malcolm Gladwell recounts how Chamberlain had switched free throw techniques and began shooting his free throws underhanded (sometimes known as a “Granny Shot“). Suddenly, Chamberlain went from a terrible free throw shooter to one of the best. He was now UNSTOPPABLE!
 
-Wilt Chamberlain shooting a free throw underhanded. AKA The "Granny Shot" with one team mate and one defender.
-Wilt Chamberlain shooting a free throw underhanded. AKA The “Granny Shot”.
 
 Except…not long after, he switched back to his old style of free throw shooting and his completion ratio tanked. He went from shooting 87.5% shooting underhanded back to shooting 40% overhanded. His only achilles heel had been his inability to shoot free throws and as soon as he’d mastered them he went back to the old way. Why would he do that? Well, Chamberlain put it this way in his biography, “I felt silly, like a sissy, shooting underhanded. I know I was wrong. I know some of the best foul shooters in history shot that way. Even now, the best one in the NBA, Rick Barry, shoots underhanded. I just couldn’t do it.” Even though all the statistics proved that shooting underhanded was the best way to go and even after he had seen the success first hand in his record breaking game he still chose to ignore it. On the other hand Rick Barry, the greatest free thrower of all time understood the advantage of underhanded free throws and embraced it to great success.
 
