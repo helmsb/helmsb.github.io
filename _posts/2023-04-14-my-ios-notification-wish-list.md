@@ -1,8 +1,8 @@
 ---
 layout: post
 title: My iOS Notification Wish List
-description: My iOS Notification Wish List
-summary: My iOS Notification Wish List
+description: Reduce digital distractions on iOS with these notification improvements. The wish list includes showing notifications only on the active device, syncing notification status, and providing an archived notification section. Other proposals are snoozing notifications, categorizations for notifications, and using notifications as shortcuts triggers.
+summary: Reduce digital distractions on iOS with these notification improvements. The wish list includes showing notifications only on the active device, syncing notification status, and providing an archived notification section. Other proposals are snoozing notifications, categorizations for notifications, and using notifications as shortcuts triggers.
 tags: ios apple wishlist
 ---
 I was recently listening to [Mac Power Users #685: Fighting Digital Distractions](https://www.relay.fm/mpu/685) and it got me thinking about the things I would like to see Apple change to address the issue of “Digital Distractions.” For the purposes of this post, I will focus on the Notifications, as improvements there go a long way toward reducing distractions overall.

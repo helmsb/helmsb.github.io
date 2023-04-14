@@ -20,8 +20,9 @@
         - {{ site.description | escape }}
       {% endunless %}
     </title>
-  
-  
+    {% if page.description%}
+    <meta name="description" content="{{page.description}}">
+    {% endif %}
 
   
     <link rel="shortcut icon" href="{{ site.url }}{{ site.baseurl }}/favicon.png">
