@@ -45,6 +45,8 @@ html[data-theme="light"] {
   --link-color: rgb(50, 87, 209);
   --code-bg-color: rgb(245, 245, 245);
   --light-grey-color: rgb(245, 245, 245);
+  --darker-grey-color: rgb(90, 90, 90);
+  --medium-grey-color: rgb(163, 163, 163);
 
   background-color: rgb(255, 255, 255);
 
@@ -121,6 +123,10 @@ html[data-theme="dark"] {
     align-items: center;
   }
 
+  .tag{
+    background-color: var(--darker-grey-color);
+    color: white;
+  }
   .footnotes{
     background-color: var(--dark-text-color);
     color: var(--very-light-text-color);
@@ -339,6 +345,8 @@ b {
   font-weight: bold;
 }
 
+
+
 .photos ul {
   list-style: none;
 }
@@ -358,7 +366,7 @@ b {
 
 .post ul {
   margin: 0px;
-  margin: 0px 0px 10px 10px;
+  margin: 0px 0px 0px 0px;
 }
 
 .post ol {
@@ -609,14 +617,14 @@ figcaption {
 }
 
 .tag{
-  background-color: #acdcee;
+  background-color: var(--medium-grey-color);
   border-radius: 1em;
-  padding-left: .5em;
-  padding-right: .5em;
+  padding-left: .75em;
+  padding-right: .75em;
   padding-top: .25em;
   padding-bottom: .25em;
   text-decoration: none;
-  color:#2e94b9
+  color: white;
 }
 
 

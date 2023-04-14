@@ -13,7 +13,7 @@ layout: default
       datetime="{{ page.date | date_to_xmlschema }}">🗓️ {{ page.date | date: "%b %-d, %Y" }} - ⏰{% if page.minute %} {{
       page.minute }} {% else %} {{ minute }} {% endif %} {% if minute == 1 %} minute {% else %} minutes {% endif %} to
       read</time>
-    <p>🔖 {% for tag in page.tags %} <a href="{{ site.url }}{{ site.baseurl }}/tag/{{tag}}" class="tag">{{tag}}</a>{%
+    <p> 🔖 {% for tag in page.tags %} <a href="{{ site.url }}{{ site.baseurl }}/tag/{{tag}}" class="tag">{{tag}}</a>{%
       unless forloop.last %} {% endunless %}{% endfor %} </p>
   </span> {{ content }}
 </section>
