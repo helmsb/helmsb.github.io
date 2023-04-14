@@ -1,8 +1,7 @@
 site: Blake's Blog
 title: Blake's Blog
 greetings: Howdy 👋
-description: >-
-  A place for the thoughts of Blake Helms
+description: Welcome to my site. My name is <a href="https://helms.social/@blake">Blake Helms</a>. This is where I write things that are on my mind.
 lang: en-US
 timezone:  America/Chicago
 data-theme: dark # default theme "dark" | "light"
