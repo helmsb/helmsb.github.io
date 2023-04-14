@@ -12,7 +12,14 @@
 	// "forwardPorts": [],
 
 	// Uncomment the next line to run commands after the container is created.
-	"postCreateCommand": "bundle install"
+	"postCreateCommand": "bundle install",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.copilot"
+			]
+		}
+	}
 
 	// Configure tool-specific properties.
 	// "customizations": {},
