@@ -1,118 +1,67 @@
-# Hyde
+# Gesko
 
-Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+Simple and minimal Jekyll blog. 
+Forked from [Asko](https://github.com/manuelmazzuola/asko).
+Original theme from [Sidey](https://github.com/ronv/sidey).
 
-![Hyde screenshot](https://f.cloud.github.com/assets/98681/1831228/42af6c6a-7384-11e3-98fb-e0b923ee0468.png)
+### Features
 
-
-## Contents
-
-- [Usage](#usage)
-- [Options](#options)
-  - [Sidebar menu](#sidebar-menu)
-  - [Sticky sidebar content](#sticky-sidebar-content)
-  - [Themes](#themes)
-  - [Reverse layout](#reverse-layout)
-- [Development](#development)
-- [Author](#author)
-- [License](#license)
-
-
-## Usage
-
-Hyde is a theme built on top of [Poole](https://github.com/poole/poole), which provides a fully furnished Jekyll setup—just download and start the Jekyll server. See [the Poole usage guidelines](https://github.com/poole/poole#usage) for how to install and use Jekyll.
-
-
-## Options
-
-Hyde includes some customizable options, typically applied via classes on the `<body>` element.
+- [x] Responsive Design
+- [x] Dark/Ligh theme 🌗
+- [x] Inline CSS
+- [x] Anchor headings
+- [x] Tags & Tag pages 
+- [x] 404 page 
+- [x] Robots.txt 🤖
+- [x] Atom & Json feeds 📡
+- [x] Sass 
+- [x] About page, with Timeline! 🗣️
+- [x] PageSpeed and w3Validator tests PASSED ✔️
+- [x] Search bar 🔎
+- [x] Next & Previous Post ⏮️ ⏭️
+- [x] Automatic/Manual reading time estimation 🕐
+- [x] Disqus section ✍️ 
 
 
-### Sidebar menu
+## Screenshot
 
-Create a list of nav links in the sidebar by assigning each Jekyll page the correct layout in the page's [front-matter](http://jekyllrb.com/docs/frontmatter/).
+![light-theme](https://github.com/DavideBri/Gesko/blob/master/light-theme.jpg)
+![dark-theme](https://github.com/DavideBri/Gesko/blob/master/dark-theme.jpg)
 
+## Installation
+
+Be sure to have all [you need](https://jekyllrb.com/docs/installation/) before running anything. 
+
+Run local server:
+
+```bash
+$ git clone https://github.com/DavideBri/Gesko.git
+$ cd Gesko
+$ bundle install
+$ bundle exec jekyll build
+$ bundle exec jekyll serve
+```
+
+Navigate to `localhost:4000`. You're Welcome, Fork and be Stargazer.
+If you want to upload it to Github Pages, remember to update the `_congif.yml` and if you are going to upload in a repo called yournickname.github.io, remember to update the `{{ site.baseurl }}` to `{{ site.url }}` .
+Note that there is also a gtag in the [`_layouts/default.html`](https://github.com/DavideBri/Gesko/blob/6776e4afc384dc3d50ce2001715929c8e70a914c/_layouts/default.html#L9), you should remove it.
+
+To create new tag, create a folder in `tag/` with the name of the new one. In this folder add an `index.html` file and just add this header:
 ```
 ---
-layout: page
-title: About
+layout: tag
+tag: yourNewTag
 ---
 ```
+Then build again and you're ready!!
 
-**Why require a specific layout?** Jekyll will return *all* pages, including the `atom.xml`, and with an alphabetical sort order. To ensure the first link is *Home*, we exclude the `index.html` page from this list by specifying the `page` layout.
+## Contributing
 
-
-### Sticky sidebar content
-
-By default Hyde ships with a sidebar that affixes its content to the bottom of the sidebar. You can optionally disable this by removing the `.sidebar-sticky` class from the sidebar's `.container`. Sidebar content will then normally flow from top to bottom.
-
-```html
-<!-- Default sidebar -->
-<div class="sidebar">
-  <div class="container sidebar-sticky">
-    ...
-  </div>
-</div>
-
-<!-- Modified sidebar -->
-<div class="sidebar">
-  <div class="container">
-    ...
-  </div>
-</div>
-```
+Yeaaa feel free to open a pull request.
 
 
-### Themes
-
-Hyde ships with eight optional themes based on the [base16 color scheme](https://github.com/chriskempson/base16). Apply a theme to change the color scheme (mostly applies to sidebar and links).
-
-![Hyde in red](https://f.cloud.github.com/assets/98681/1831229/42b0b354-7384-11e3-8462-31b8df193fe5.png)
-
-There are eight themes available at this time.
-
-![Hyde theme classes](https://f.cloud.github.com/assets/98681/1817044/e5b0ec06-6f68-11e3-83d7-acd1942797a1.png)
-
-To use a theme, add anyone of the available theme classes to the `<body>` element in the `default.html` layout, like so:
-
-```html
-<body class="theme-base-08">
-  ...
-</body>
-```
-
-To create your own theme, look to the Themes section of [included CSS file](https://github.com/poole/hyde/blob/master/public/css/hyde.css). Copy any existing theme (they're only a few lines of CSS), rename it, and change the provided colors.
-
-### Reverse layout
-
-![Hyde with reverse layout](https://f.cloud.github.com/assets/98681/1831230/42b0d3ac-7384-11e3-8d54-2065afd03f9e.png)
-
-Hyde's page orientation can be reversed with a single class.
-
-```html
-<body class="layout-reverse">
-  ...
-</body>
-```
-
-
-## Development
-
-Hyde has two branches, but only one is used for active development.
-
-- `master` for development.  **All pull requests should be submitted against `master`.**
-- `gh-pages` for our hosted site, which includes our analytics tracking code. **Please avoid using this branch.**
-
-
-## Author
-
-**Mark Otto**
-- <https://github.com/mdo>
-- <https://twitter.com/mdo>
-
+If you see any typos or formatting errors in a post, or want to helping reduce backlogs or any other issue that needs to be addressed, please do not hesitate to open a pull request and fix it!, please read [contributing](./CONTRIBUTING.md) before PR.
 
 ## License
 
-Open sourced under the [MIT license](LICENSE.md).
-
-<3
+This project is open source and available under the [MIT License](LICENSE.md).
