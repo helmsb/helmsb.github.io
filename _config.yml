@@ -1,20 +1,87 @@
-# Setup
-title:            Blake Helms
-tagline:          'The digital home of Blake Helms'
-description:      'The digital home of Blake Helms'
-url:              https://blakehelms.net
-baseurl:          ''
-paginate:         5
+site: Blake's Blog
+title: Blake's Blog
+greetings: Howdy 👋
+description: Welcome to my site. My name is <a href="https://helms.social/@blake">Blake Helms</a>. This is where I write things that are on my mind.
+lang: en-US
+timezone:  America/Chicago
+data-theme: dark # default theme "dark" | "light"
 
-# About and contact
 author:
-  name:           'Blake Helms'
-  url:            https://twitter.com/helmsb
+  name: Blake Helms
+  bio: just a minimalist, personal blog
+  userpicture: 
+  username: # general username
+  github: # github username
+  twitter: # twitter username
+  email: blake@blakehelms.net # email adress
 
-# Gems
+# URL settings
+url: "" # Domain Name of host. [username].github.io for github pages
+baseurl: "" # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
+permalink: pretty
+
+# local
+# url: "http://localhost:4000" # 
+# baseurl: "" # 
+
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+
+exclude:
+  - .jekyll-cache
+  - .obsidian
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - CONTRIBUTING.md
+  
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
 plugins:
   - jekyll-paginate
-  - jekyll-gist
+  - jekyll-sitemap
+  - jekyll-relative-links
 
-# Custom vars
-version:          3.0.0
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:slug
+  
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+relative_links:
+  enabled:     true
+  collections: false
+
+
