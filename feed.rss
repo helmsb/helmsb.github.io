@@ -5,6 +5,15 @@
     <link>https://www.githubstatus.com</link>
     <description>Statuspage</description>
     <pubDate>Wed, 04 Dec 2024 21:02:52 +0000</pubDate>
+<item>
+  <title>Disruption with Actions and Pages</title>
+  <description>
+&lt;p&gt;&lt;small&gt;Dec &lt;var data-var=&apos;date&apos;&gt; 4&lt;/var&gt;, &lt;var data-var=&apos;time&apos;&gt;20:15&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Resolved&lt;/strong&gt; - On December 4th, 2024, between 19:00 and 20:10 UTC, the Actions and Pages services experienced degraded performance. During this period, some users faced delays in workflows and deployments. The root cause was a temporary service overload in our backend processing systems. The issue was resolved by scaling up resources and optimizing processing queues.&lt;br&gt;&lt;br&gt;We are implementing additional monitoring and resource scaling strategies to prevent similar disruptions in the future.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Dec &lt;var data-var=&apos;date&apos;&gt; 4&lt;/var&gt;, &lt;var data-var=&apos;time&apos;&gt;19:30&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Update&lt;/strong&gt; - We are observing recovery in affected services and continue to monitor the situation closely.&lt;/p&gt;&lt;p&gt;&lt;small&gt;Dec &lt;var data-var=&apos;date&apos;&gt; 4&lt;/var&gt;, &lt;var data-var=&apos;time&apos;&gt;19:00&lt;/var&gt; UTC&lt;/small&gt;&lt;br&gt;&lt;strong&gt;Investigating&lt;/strong&gt; - We are currently investigating reports of degraded performance in Actions and Pages.&lt;/p&gt;
+  </description>
+  <pubDate>Wed, 04 Dec 2024 21:15:00 +0000</pubDate>
+  <link>https://www.githubstatus.com/incidents/abcd1234efgh</link>
+  <guid>https://www.githubstatus.com/incidents/abcd1234efgh</guid>
+</item>
     <item>
       <title>Disruption with some GitHub services</title>
       <description>
