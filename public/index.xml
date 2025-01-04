@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blake Helms - McCalla, Alabama</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Blake Helms - McCalla, Alabama</description>
+    <generator>Hugo -- 0.140.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Apr 2023 05:48:01 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My iOS Notification Wish List</title>
+      <link>http://localhost:1313/posts/2023-04-14-my-ios-notification-wish-list/</link>
+      <pubDate>Fri, 14 Apr 2023 05:48:01 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-04-14-my-ios-notification-wish-list/</guid>
+      <description>&lt;p&gt;I was recently listening to &lt;a href=&#34;https://www.relay.fm/mpu/685&#34;&gt;Mac Power Users #685: Fighting Digital Distractions&lt;/a&gt; and it got me thinking about the things I would like to see Apple change to address the issue of “Digital Distractions.” For the purposes of this post, I will focus on the Notifications, as improvements there go a long way toward reducing distractions overall.&lt;/p&gt;
+&lt;h2 id=&#34;proposals&#34;&gt;Proposals&lt;/h2&gt;
+&lt;p&gt;I’ve divided my proposals into categories based on the need for improvement. Some are needed more than others and some are more selfish as they would help me with my preferred workloads. This list is not comprehensive and does not preclude other, better ideas.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
